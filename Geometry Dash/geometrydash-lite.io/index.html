@@ -96,8 +96,7 @@
 		location.reload();
 	}
 	</script><script src="../engine.1001gamesdev.workers.dev/Build/UnityLoader.js"></script><script>UnityLoader.compatibilityCheck=function(e,t,r){t();};
-	var gameInstance = UnityLoader.instantiate("gameContainer", "geob.json", {onProgress: UnityProgress});
-
+ var gameInstance = UnityLoader.instantiate("gameContainer", "https://engine.1001gamesdev.workers.dev/Build/geob.json", {onProgress: UnityProgress});
  function UnityProgress(gameInstance, progress) {
  if (!gameInstance.Module) {
  return;
